@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, View, Text, Image} from 'react-native';
 
-const MateriFlexBox = () => {
+const FlexBox = () => {
   return (
     <View>
       <View style={styles.parentBoxes}>
@@ -79,4 +79,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default MateriFlexBox;
+export default FlexBox;

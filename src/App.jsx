@@ -1,20 +1,15 @@
 import React from 'react';
 import {ScrollView, View} from 'react-native';
-import {
-  // SampleComponent,
-  // StylingComponent,
-  // MateriFlexBox,
-  PositionComponent,
-} from './components';
+import {SampleComponent, StylingComponent, FlexBox, Position} from './pages';
 
 const App = () => {
   return (
     <View>
       <ScrollView>
-        {/* <SampleComponent />
+        <SampleComponent />
         <StylingComponent />
-        <MateriFlexBox /> */}
-        <PositionComponent />
+        <FlexBox />
+        <Position />
       </ScrollView>
     </View>
   );
